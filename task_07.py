@@ -5,3 +5,8 @@
 import task_06
 
 WORDS = task_06.WORDS
+
+if "granaries" in WORDS:
+    print "GRANARIES_EXIST"
+else:
+    print "GRANARIES_DOES_NOT_EXIST"
